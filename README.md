@@ -15,12 +15,13 @@ The camera detection in these sketches is based on my laptop's default hardware 
 
 
 There are 3 different versions of the code:
-      One_Camera_Animated_GIF_Single_PImage_GUI takes multiple exposures over time with a single webcam.
-                                As it's name suggests, it uses a single PImage 
-                                (I had an earlier prototype that used one PImage for each frame)
-                                It then combines the images as sequential frames in an animated GIF image.
+
+One_Camera_Animated_GIF_Single_PImage_GUI takes multiple exposures over time with a single webcam.
+      As it's name suggests, it uses a single PImage 
+      (I had an earlier prototype that used one PImage for each frame)
+      It then combines the images as sequential frames in an animated GIF image.
                                 
-      Three_Camera_Proc_Lib_Capture Takes one picture with each of up to three webcams, taking the pictures almost simultaniously.
-                                This gives a "Jitter 3D" effect when the frames are animated.
+Three_Camera_Proc_Lib_Capture Takes one picture with each of up to three webcams, taking the pictures almost simultaniously.
+      This gives a "Jitter 3D" effect when the frames are animated.
                                 
-      Three_Camera_Proc_Lib_Capture_display adds an image preview funtion after the GIF is created.
+Three_Camera_Proc_Lib_Capture_display adds an image preview funtion after the GIF is created.
